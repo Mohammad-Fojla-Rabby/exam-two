@@ -12,6 +12,7 @@ body{font-family: 'Poppins', sans-serif;}
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
+
    
 
 }
@@ -38,8 +39,8 @@ body{font-family: 'Poppins', sans-serif;}
     display: grid;
     grid-template-columns:  repeat(3, 1fr);
     grid-row-gap: 40px;
-    justify-content: center;
-    align-items: center;
+  
+  
 
  
 }
@@ -87,10 +88,28 @@ line-break: 3px;
 
 }
 /* media query */
-@media only screen and (max-width:412px) {
+@media only screen and (min-width:375px ) and (max-width:767px)  {
     .container{
-           
+     
+        grid-template-columns: repeat(1, 1fr);
+ }
 
+.products-layout {
   
-    }
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+
+/* media query */
+@media only screen and (min-width:768px)  and ( max-width: 1024px){
+   .products-layout{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+
+   }
+    
+
 }
