@@ -1,0 +1,44 @@
+/*--------------------------------------------
+-------- poppins-font-included-----------------
+--------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{font-family: 'Poppins', sans-serif;}
+
+/* products-layout */
+ 
+.products-layout{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+
+/* products-area */
+.products-area{
+     height: 476px;
+     width: 329px;
+     padding: 10px;
+     border: 10px solid rgb(216, 216, 216);
+
+
+}
+/* image-edit */
+.photo{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.photo-name{
+    margin: 0%;
+}
+.font-awesome{
+    color: orange;
+}
+.photo-info{
+line-break: 3px;
+
+}
