@@ -4,6 +4,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{font-family: 'Poppins', sans-serif;}
 
+/* section-first */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+
+}
+.text{
+    width:400px;
+    text-align: justify;
+}
+.first-image{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------------------------------
+------------ section-second---------------
+--------------------------------------- */
+
+
+
 /* products-layout */
  
 .products-layout{
@@ -14,6 +42,10 @@ body{font-family: 'Poppins', sans-serif;}
     align-items: center;
 
  
+}
+h1{
+    text-align: center;
+
 }
 
 
@@ -41,4 +73,24 @@ body{font-family: 'Poppins', sans-serif;}
 .photo-info{
 line-break: 3px;
 
+}
+/* footer section */
+.footer {
+    background-color: black;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+}
+.footer-font{
+ 
+
+}
+/* media query */
+@media only screen and (max-width:412px) {
+    .container{
+           
+
+  
+    }
 }
