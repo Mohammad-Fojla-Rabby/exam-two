@@ -100,11 +100,11 @@ line-break: 3px;
         
     }
     .products-area{
-        width: 200px;
-        height: 400px;
+     max-width: 374;
+        height: 430px;
     }
   .responsive{
-        width: 200px;
+        width: 100%;
   }
 .text{
     width: 200px;
