@@ -121,6 +121,8 @@ line-break: 3px;
 }
 .footer-text{
     width: 90%;
+    align-items: center;
+    justify-content: center;
 }
 
     }
