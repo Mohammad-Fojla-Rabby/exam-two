@@ -83,11 +83,40 @@ line-break: 3px;
     text-align: center;
     color: white;
 }
-.footer-font{
+
  
 
-}
+
 /* media query */
+
+@media only screen and (min-width:200px) and (max-width:374px){
+   
+    .container{
+        grid-template-columns: repeat(1, 200px);
+        
+    }
+    .products-layout{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .products-area{
+        width: 200px;
+        height: 400px;
+    }
+  .responsive{
+        width: 200px;
+  }
+.text{
+    width: 200px;
+    text-align: center;
+}
+.footer{
+    width: 230px;
+}
+
+    }
+   
+
 @media only screen and (min-width:375px ) and (max-width:767px)  {
     .container{
      
