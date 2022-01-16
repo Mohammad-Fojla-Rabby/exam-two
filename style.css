@@ -110,14 +110,17 @@ line-break: 3px;
         height: 430px;
     }
   .responsive{
-        width: 100%;
+        width: 90%;
   }
 .text{
     width: 200px;
     text-align: center;
 }
 .footer{
-    width: 230px;
+  max-width: 374px;
+}
+.footer-text{
+    width: 90%;
 }
 
     }
